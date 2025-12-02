@@ -64,7 +64,7 @@ source .venv/bin/activate
 ## Project Structure
 
 ```
-substack-backend/
+etcher-backend/
 ├── app/
 │   ├── core/          # Config and database setup
 │   ├── models/        # SQLAlchemy models
