@@ -1,6 +1,6 @@
-# Substack Clone Backend
+# Etcher Backend
 
-A scalable FastAPI backend for a Substack-like newsletter platform.
+A scalable FastAPI backend for caching/indexing Etcher as an API - a decentralized newsletter platform.
 
 ## Setup
 
