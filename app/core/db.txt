@@ -1,0 +1,7 @@
+
+password  - 'mypassword'
+database - blogchain_db
+user - 'myuser'
+GRANT
+
+You are now connected to database "blogchain_db" as user "rohitsaigopal".
