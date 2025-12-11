@@ -40,14 +40,6 @@ source .venv/bin/activate
 - `PATCH /api/v1/authors/{id}` - Update author
 - `DELETE /api/v1/authors/{id}` - Delete author
 
-### Publications
-- `POST /api/v1/publications/` - Create publication
-- `GET /api/v1/publications/` - List publications
-- `GET /api/v1/publications/{id}` - Get publication by ID
-- `GET /api/v1/publications/slug/{slug}` - Get publication by slug
-- `PATCH /api/v1/publications/{id}` - Update publication
-- `DELETE /api/v1/publications/{id}` - Delete publication
-
 ### Posts
 - `POST /api/v1/posts/` - Create post
 - `GET /api/v1/posts/` - List posts (with filters)
@@ -55,11 +47,6 @@ source .venv/bin/activate
 - `GET /api/v1/posts/slug/{pub_slug}/{post_slug}` - Get post by slug
 - `PATCH /api/v1/posts/{id}` - Update post
 - `DELETE /api/v1/posts/{id}` - Delete post
-
-### Subscribers
-- `POST /api/v1/subscribers/` - Subscribe to publication
-- `GET /api/v1/subscribers/publication/{id}` - List subscribers
-- `DELETE /api/v1/subscribers/{id}` - Unsubscribe
 
 ## Project Structure
 

@@ -17,11 +17,6 @@ app.add_middleware(
 
 app.include_router(api_router, prefix=settings.API_V1_STR)
 
-# @app.on_event("startup")
-# async def startup():
-#     async with engine.begin() as conn:
-#         await conn.run_sync(Base.metadata.create_all)
-
 @app.get("/health")
 async def health():
     return {"status": "healthy"}
@@ -30,7 +25,3 @@ async def health():
 async def root():
     return {"message": "Hello World"}
 
-
-@app.get("/hello/{name}")
-async def say_hello(name: str):
-    return {"message": f"Hello {name}"}

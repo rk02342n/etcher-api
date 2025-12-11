@@ -16,4 +16,3 @@ class Author(Base):
     # updated_at = Column(DateTime(timezone=True), onupdate=func.now())
     
     posts = relationship("Post", back_populates="author")
-    publications = relationship("Publication", back_populates="author")
